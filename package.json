@@ -1,0 +1,20 @@
+{
+  "name": "nope_api",
+  "version": "1.0.0",
+  "description": "- Set up staging and production servers   - install apache/git/updates   - setup local git repo to push to staging/production servers   - push changes to staging server for testing   - when testing complete push files to production server",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konner",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "expect": "^1.13.4",
+    "mocha": "^2.4.5",
+    "supertest": "^1.1.0"
+  }
+}
